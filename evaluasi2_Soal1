@@ -1,0 +1,22 @@
+package mikki;
+import java.util.Scanner;
+import java.math.BigInteger;
+public class Mikki {
+
+    public static void main(String[] args) {
+        // soal 1
+     Scanner sc = new Scanner(System.in);
+        System.out.print("masukkan angka = ");
+     String a = sc.nextLine();
+        System.out.print("Masukkan angka = ");
+     String b = sc.nextLine();
+     
+     BigInteger ab = new BigInteger(a);
+     BigInteger ac = new BigInteger(b);
+     
+     BigInteger ah = ab.multiply(ac);
+        System.out.println(ah);
+  
+    }
+    
+}
