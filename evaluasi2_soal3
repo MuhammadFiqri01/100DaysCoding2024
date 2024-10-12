@@ -1,0 +1,18 @@
+
+package mikki;
+
+import java.util.Scanner;
+public class Angka {
+    public static void main(String[] args) {
+        // soal 3
+        Scanner sa = new Scanner(System.in);
+        System.out.print("Masukkan inisial = ");
+      char a = sa.next().charAt(0);
+      String b = a + "";
+        System.out.println(b);
+        
+    }
+    
+
+    
+}
