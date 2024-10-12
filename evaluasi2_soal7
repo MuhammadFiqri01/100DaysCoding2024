@@ -1,0 +1,23 @@
+
+package mikki;
+
+import java.util.Scanner;
+public class Soal_7 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("masukkan usia1 = ");
+        int a = input.nextInt();
+        System.out.print("masukkan usia2 = ");
+        int b = input.nextInt(); 
+        
+        boolean c = a == b ;
+        boolean d = a < b;
+        boolean e = a > b;
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        
+        
+    }
+    
+}
