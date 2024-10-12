@@ -1,0 +1,15 @@
+
+package mikki;
+import java.util.Scanner;
+public class Soal_6 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Masukkan harga = ");
+        double a = input.nextDouble();
+        System.out.print("masukkan diskon = ");
+        double b = input.nextDouble();
+        a -= b*a/100;
+        System.out.println(a);
+    }
+    
+}
