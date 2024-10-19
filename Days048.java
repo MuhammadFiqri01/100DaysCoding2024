@@ -19,10 +19,10 @@ public class Days048Java {
             System.out.println("Remaja");
         }
           else {   
-        }
         if (a <= 12 && a >= 0){
             System.out.println("anak-anak"); 
         }
+     }
        
     }
 }
